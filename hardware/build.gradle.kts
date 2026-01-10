@@ -27,8 +27,8 @@ android {
 }
 
 dependencies {
-    implementation(project(":core"))
-    implementation(project(":ftc"))
+    api(project(":core"))
+    api(project(":ftc"))
     compileOnly(libs.bundles.ftc)
 }
 
